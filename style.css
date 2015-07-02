@@ -1,0 +1,287 @@
+body {
+  background-color: black;
+}
+
+.container {
+  border: 0px black solid;
+  width: 1366px;
+  height: 1000px;
+  position: absolute
+}
+
+.container02 {
+  background-image: url("images/tattoo_background.jpg");
+  border: 0px black solid;
+  width: 667px;
+  height: 1000px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.main {
+  border: 0;
+  margin: 0 auto;
+  width: 410px;
+  height: 250px;
+  position: relative;
+  top: 445px;
+  left: 145px;
+}
+
+span {
+  font-size: 36px;
+  color: #9c8468;
+  opacity: 0.1;
+  color: #fff;
+  text-shadow: 0px -1px 4px white, 0px -2px 10px yellow, 0px -10px 20px #ff8000, 0px -18px 40px red;
+     -webkit-animation: flickerAnimation 10s infinite;
+     -moz-animation: flickerAnimation 10s infinite;
+     -o-animation: flickerAnimation 10s infinite;
+      animation: flickerAnimation 10s infinite;
+}
+
+#fontStyle {
+  font-size: 36px;
+  color: #9c8468;
+  opacity: .8;
+  color: #fff;
+  text-shadow: 0px -1px 4px white, 0px -2px 10px yellow, 0px -10px 20px #ff8000, 0px -18px 40px red;
+}
+
+.row01 {
+  border: 0;
+  width: 210px;
+  height: 50px;
+  position: relative;
+  display: block;
+}
+
+.row02 {
+  border: 0;
+  width: 210px;
+  height: 50px;
+  position: relative;
+  display: block;
+}
+
+.row03 {
+  border: 0;
+  width: 210px;
+  height: 50px;
+  position: relative;
+  display: block;
+}
+
+.row04 {
+  border: 0;
+  width: 210px;
+  height: 50px;
+  position: relative;
+  display: block;
+}
+
+.row05 {
+  border: 0;
+  width: 210px;
+  height: 50px;
+  position: relative;
+  display: block;
+}
+
+.button_clear {
+  color: #ffffff;
+  text-align: center;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+
+.answer_box {
+  text-align: center;
+  margin: 0 auto;
+  border: 0;
+  width: 150px;
+  height: 50px;
+  position: relative;
+  float: left;
+  display: inline-block;
+}
+
+.button_07 {
+  text-align: center;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+
+.button_08 {
+  text-align: center;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+.button_09 {
+  text-align: center;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+.button_plus {
+  text-align: center;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+  float: left`;
+}
+
+.button_04{
+  text-align: center;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+
+.button_05 {
+  text-align: center;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+.button_06 {
+  text-align: center;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+.button_minus {
+  text-align: center;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+
+.button_01 {
+  text-align: center;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+
+.button_02 {
+  text-align: center;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+.button_03 {
+  text-align: center;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+.button_divide {
+  text-align: center;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+
+.button_00 {
+  text-align: center;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+
+.button_decimal {
+  text-align: center;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+.button_equals {
+  text-align: center;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+.button_multiply {
+  text-align: center;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+
+
+
+//text fade in and out effect
+@keyframes flickerAnimation {
+  0%   { opacity:.5; }
+  50%  { opacity:0; }
+  80% { opacity:.5; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity:.5; }
+  50%  { opacity:0; }
+  80% { opacity:.5; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:.5; }
+  50%  { opacity:0; }
+  80% { opacity:.5; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:.5; }
+  50%  { opacity:0; }
+  80% { opacity:.5; }
+}
